@@ -11,21 +11,18 @@ screen.title("U.S. States Quiz Game")
 screen.addshape(BG_IMAGE)
 turtle.shape(BG_IMAGE)
 
-guessed_state = []
+guessed_states = []
 
-while len(guessed_state) < 50:
-    input_field = screen.textinput(title=f"{len(guessed_state)}/50 states correct", prompt="Enter state name")
+while len(guessed_states) < 50:
+    input_field = screen.textinput(title=f"{len(guessed_states)}/50 states correct", prompt="Enter state name")
     answer = input_field.title()
     if answer == 'Exit':
-        missed_states = []
-        for state in states:
-            if state not in guessed_state:
-                missed_states.append(state)
+        missed_states = [state for state in states if state not in guessed_states]
         res = pandas.DataFrame(missed_states, columns=["Missed States"])
         res.to_csv('results.csv')
         break
     if answer in states:
-        guessed_state.append(answer)
+        guessed_states.append(answer)
         t = turtle.Turtle()
         t.hideturtle()
         t.penup()
