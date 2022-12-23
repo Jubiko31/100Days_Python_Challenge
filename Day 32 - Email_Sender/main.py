@@ -3,6 +3,7 @@ import datetime as dt
 import pandas as pd
 # Here tested for real credentials,
 # also you can add real users in csv and progema will send template letter on their bd
+# to make program automatically host on pythonanywhere and run daily
 email = "<email>"
 password = "<app-password>"
 
