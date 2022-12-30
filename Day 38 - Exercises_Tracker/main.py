@@ -12,6 +12,7 @@ WEIGHT_KG = 82
 HEIGHT_CM = 180
 EXERCISE_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 GOOGLE_SHEETS_ENDPOINT = "https://api.sheety.co/9ded8262ccb7a3a2a14ed43fa21dc089/myWorkouts/workouts"
+GOOGLE_SHEET_BEARER_TOKEN = os.getenv('GOOGLE_SHEET_TOKEN')
 APP_ID = os.getenv('NUTRIX_APP_ID')
 APP_KEY = os.getenv('NUTRIX_APP_KEY')
 
@@ -20,6 +21,9 @@ exercise = input("Tell me which exercises you did today: ")  # run 4 kms, swim 2
 headers = {
     "x-app-id": APP_ID,
     "x-app-key": APP_KEY,
+}
+bearer_headers = {
+    "Authorization": f"Bearer {GOOGLE_SHEET_BEARER_TOKEN}"
 }
 params = {
     "query": exercise,
@@ -46,6 +50,6 @@ for workout in result["exercises"]:
         }
     }
     
-    res = requests.post(GOOGLE_SHEETS_ENDPOINT, json=sheet_input)
+    res = requests.post(GOOGLE_SHEETS_ENDPOINT, json=sheet_input, headers=bearer_headers)
     
     print(res.text)
