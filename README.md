@@ -14,3 +14,8 @@ Course includes every field of programming, and goes from beginner to proffesion
 <li>Day 81 - 99 &nbsp;|&nbsp; <b>Professional</b></li>
 <li>Day 100 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp; <b>🐍</b></li>
 </ul>
+
+<br />
+
+#### Start Date: 23.11.22
+#### Finish Date: __ (<i>46 days passed</i>)
