@@ -18,4 +18,4 @@ Course includes every field of programming, and goes from beginner to proffesion
 <br />
 
 #### Start Date: 23.11.22
-#### Finish Date: __ (<i>52 days passed</i>)
+#### Finish Date: __ (<i>60 days passed</i>)
