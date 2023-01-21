@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send email with with Flask</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <div>
+        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+        <form name="sentMessage" id="contactForm" action="{{ url_for('contact') }}" method="post" novalidate>
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Name" id="name" required>
+                <p></p>
+            </div>
+            <div >
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="Email Address" id="email" required>
+                <p></p>
+            </div>
+            <div>
+                <label>Phone Number</label>
+                <input type="tel" name="phone" placeholder="Phone Number" id="phone" required>
+                <p></p>
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea rows="5" name="message" placeholder="Message" id="message" required></textarea>
+                <p></p>
+            </div>
+            <br>
+            <div id="success"></div>
+            <button type="submit" id="sendMessageButton">Send</button>
+          </form>
+    </div>
+    <hr>
+</body>
+</html>
