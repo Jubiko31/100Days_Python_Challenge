@@ -1,4 +1,1 @@
-### Analyse the Popularity of Different Programming Languages over Time Using Matplotlib
-
-
-![image](https://user-images.githubusercontent.com/53910160/215848714-bc61df31-aa2d-4509-bdb7-11d57c5aed8b.png)
+[Day 72 - Data Science - Data Visualization with Matplotlib](https://github.com/Jubiko31/100Days_Python_Data_Science/tree/main/Day%C2%A072%20-%20Data%20Visualization%20with%20Matplotlib)
