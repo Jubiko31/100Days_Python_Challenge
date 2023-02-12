@@ -18,4 +18,4 @@ Course includes every field of python programming, and goes from beginner to pro
 <br />
 
 #### Start Date: 23.11.22
-#### Finish Date: __ (<i>67 days passed</i>)
+#### Finish Date: __ (<i>82 days passed</i>)
