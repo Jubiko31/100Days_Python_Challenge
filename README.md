@@ -1,6 +1,6 @@
 # 100 Days of Python Challenge 🐲
 
-Today I started the <i>100 Days of Code: The Complete Python Pro Bootcamp for 2023</i> 🐍 certification, by Dr. Angela Yu. <br />
+Today(23 November) I started the <i>100 Days of Code: The Complete Python Pro Bootcamp for 2023</i> 🐍 certification, by Dr. Angela Yu. <br />
 This course is like challange so I took it 🚀 <br />
 <br />
 Course includes every field of python programming, and goes from beginner to proffesional python coding 🔥
@@ -18,4 +18,4 @@ Course includes every field of python programming, and goes from beginner to pro
 <br />
 
 #### Start Date: 23.11.22
-#### Finish Date: __ (<i>82 days passed</i>)
+#### Finish Date: __ (<i>91 days passed</i>)
