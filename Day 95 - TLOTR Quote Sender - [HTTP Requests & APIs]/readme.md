@@ -1,0 +1,1 @@
+[Day 95 - TLOTR Quote Sender - [HTTP Requests & APIs]](https://github.com/Jubiko31/Python_Professional_Portfolio/tree/main/Day%C2%A095%20-%20TLOTR%20Quote%20Sender%20-%20%5BHTTP%20Requests%20%26%20APIs%5D)
