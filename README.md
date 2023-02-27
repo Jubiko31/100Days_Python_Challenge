@@ -158,3 +158,9 @@ Skills I have acquired with this course:
   <li><b>Analysing Deaths Involving Police in USA</b></li>
   <li><b>Predict Earnings of By Education & Job Expreience</b></li>
 </ol>
+
+<br />
+<br />
+
+<hr />
+@All Rights Reserved 2023 | Juba Matsaberidze
