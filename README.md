@@ -5,7 +5,7 @@ This course is like challange so I took it 🚀 <br />
 <br />
 Course includes every field of python programming, and goes from beginner to proffesional python coding 🔥
 
-# Levels
+# Course Levels
 <ul>
 <li>Day 1 - 14 &nbsp; &nbsp;|&nbsp; <b>Beginner</b></li>
 <li>Day 15 - 31 &nbsp;|&nbsp; <b>Intermediate</b></li>
