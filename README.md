@@ -160,6 +160,10 @@ Skills I have acquired with this course:
 </ol>
 
 <br />
+
+# Certificate
+![UC-0baed5cc-fef1-485b-9554-451d2b1f8208](https://user-images.githubusercontent.com/53910160/222815100-a5e5fa26-b50d-4014-a9de-535904a27b2b.jpg)
+
 <br />
 
 <hr />
